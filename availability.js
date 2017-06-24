@@ -67,7 +67,7 @@ const checkAvailability = (arrivalDate, lengthOfStay, parkId, siteId, cb) => {
                 date,
                 available: element.attribs.title === 'Available'
             }
-        })
+        }).toArray()
 
         cb(dates)
     }

@@ -23,7 +23,8 @@ const parseParks = (data, cb) => {
             sitesUrl: `https://www.recreation.gov/campsiteSearch.do?search=site&page=siteresult&contractCode=NRSO&parkId=${query.parkId}`,
             name: title,
             id: query.parkId,
-            sites: []
+            sites: [],
+            sitesChecked: 0
         }
         parks.push(park)
     })

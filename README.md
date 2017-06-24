@@ -11,6 +11,6 @@ npm install
 
 ## Run
 ```
-node index.js -y <year> -m <month> -d <day> -l <length of stay>
+node index.js -y <year> -m <month> -d <day>
 ```
 This will search a 14 day window starting with \<month>/\<day>/\<year>
